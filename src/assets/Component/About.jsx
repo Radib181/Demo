@@ -20,7 +20,7 @@ function About() {
             alt="Badge"
           />
           <h1 className="font-extrabold text-yellow-400 text-4xl md:text-5xl lg:text-6xl uppercase">
-            About $Koksal Token
+            About $Koksal Token.
           </h1>
         </div>
       </div>
