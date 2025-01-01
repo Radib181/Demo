@@ -1,8 +1,4 @@
 import React from "react";
-import Headerpic from "../Photos/Headerpic.png";
-import Logotow from "../Photos/Logotow.png";
-import Progressber from "../Photos/Progressber.png";
-import Batch1 from "../Photos/Batch1.png";
 
 function Header() {
   return (
@@ -13,7 +9,7 @@ function Header() {
         <div className="lg:w-1/2 flex justify-center">
           <img
             className="w-[280px] h-[610px] sm:w-[300px] lg:w-[350px] xl:w-[400px] transition-all transform hover:scale-105"
-            src={Headerpic}
+            src="/Headerpic.png"
             alt="Header Image"
           />
         </div>
@@ -23,7 +19,7 @@ function Header() {
           
           {/* Logo and Description */}
           <div className="text-center lg:text-left">
-            <img className="mx-auto w-44 h-auto sm:w-72 lg:w-80" src={Logotow} alt="Logo" />
+            <img className="mx-auto w-44 h-auto sm:w-72 lg:w-80" src="/Logotow.png" alt="Logo" />
             <h4 className="text-lg sm:text-xl lg:text-2xl text-white mt-4 leading-relaxed font-medium">
               The First Game in Solano Network
               <br />
@@ -37,7 +33,7 @@ function Header() {
           <div className="flex justify-center lg:justify-start">
             <img
               className="w-[300px] sm:w-[400px] lg:w-[500px] h-auto transition-all transform hover:scale-105"
-              src={Progressber}
+              src='/Progressber.png'
               alt="Progress Bar"
             />
           </div>
@@ -48,7 +44,7 @@ function Header() {
             <div>
               <img
                 className="w-16 sm:w-20 lg:w-24 h-auto transition-all transform hover:scale-105"
-                src={Batch1}
+                src="/Batch1.png"
                 alt="Batch"
               />
             </div>

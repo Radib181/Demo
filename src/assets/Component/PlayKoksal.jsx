@@ -1,9 +1,5 @@
 import React from "react";
 
-import watch from "../Photos/watch.png";
-import Youtubre from "../Photos/Youtubre.png";
-import Img from "../Photos/Img.png";
-import Googlelogo from "../Photos/Googlelogo.png";
 
 function PlayKoksal() {
   return (
@@ -26,7 +22,7 @@ function PlayKoksal() {
               <img
                 key={idx}
                 className="h-14 w-auto transform transition-transform duration-200 hover:scale-110"
-                src={Googlelogo}
+                src="/Googlelogo.png"
                 alt=""
               />
             ))}
@@ -36,12 +32,12 @@ function PlayKoksal() {
           <div className="flex justify-center lg:justify-start space-x-8 mt-8">
             <img
               className="h-20 w-auto transform transition-transform duration-200 hover:scale-105"
-              src={watch}
+              src="/watch.png"
               alt="Watch Trailer"
             />
             <img
               className="h-20 w-auto transform transition-transform duration-200 hover:scale-105"
-              src={Youtubre}
+              src="/Youtubre.png"
               alt="YouTube"
             />
           </div>
@@ -53,7 +49,7 @@ function PlayKoksal() {
             <div className="relative">
               <img
                 className="rounded-lg shadow-xl transition-transform duration-300 group-hover:scale-105"
-                src={Img}
+                src = "/Img.png"
                 alt="Koksal Baba Game"
               />
               {/* Subtle Fire Effect */}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Roadmapimg from "../Photos/Roadmapimg.png";
+
 
 function Roadmap() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -42,7 +42,7 @@ function Roadmap() {
         >
           <img
             className="w-full rounded-lg transition-transform duration-500"
-            src={Roadmapimg}
+            src="/Roadmapimg.png"
             alt="Roadmap"
             style={{
               transform: hovering ? 'scale(1.05)' : 'scale(1)',

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Batch1 from "../Photos/Batch1.png";
-import Img2 from "../Photos/Img2.png";
+
 
 function About() {
   const [showMore, setShowMore] = useState(false);
@@ -16,7 +15,7 @@ function About() {
         <div className="flex justify-center items-center space-x-4">
           <img
             className="w-16 h-16 drop-shadow-lg transform transition-transform hover:scale-110"
-            src={Batch1}
+            src="/Batch1.png"
             alt="Badge"
           />
           <h1 className="font-extrabold text-yellow-400 text-4xl md:text-5xl lg:text-6xl uppercase">
@@ -31,7 +30,7 @@ function About() {
         <div className="lg:w-1/2 flex justify-center lg:justify-start">
           <img
             className="rounded-lg shadow-2xl hover:shadow-yellow-500/50 transition-shadow duration-500 max-w-full"
-            src={Img2}
+            src="/Img2.png"
             alt="About Koksal"
           />
         </div>

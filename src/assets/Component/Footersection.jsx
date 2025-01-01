@@ -1,7 +1,6 @@
 import React from "react";
 import { FaTwitter, FaTelegramPlane, FaDiscord } from "react-icons/fa"; // Importing icons
-import Eggole from "../Photos/Eggole.jpg"; // Ensure the correct path to the Eggole image
-import Logo from "../Photos/Logo.png";
+
 
 function Footersection() {
   return (
@@ -10,7 +9,7 @@ function Footersection() {
         {/* Logo Section */}
         <div className="flex-shrink-0">
           <img
-            src={Logo}
+            src="/Logo.png"
             alt="Logo"
             className="w-40 h-20 sm:w-56 sm:h-32 cursor-pointer transition-transform transform hover:scale-110"
           />
@@ -59,7 +58,7 @@ function Footersection() {
           <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-yellow-400 to-red-500 hover:scale-110 transition-transform duration-300">
             <img
               className="h-10 w-10 rounded-full"
-              src={Eggole}
+              src="/Eggole.jpg"
               alt="Eggole"
             />
           </div>

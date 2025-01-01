@@ -1,7 +1,6 @@
 import React from "react";
 import { FaTwitter, FaTelegramPlane, FaDiscord } from "react-icons/fa"; // Importing icons
-import Logo from "../Photos/Logo.png";
-import Eggole from "../Photos/Eggole.jpg";
+
 
 const Navber = () => {
   return (
@@ -11,7 +10,7 @@ const Navber = () => {
         <div className="mb-4 lg:mb-0 flex items-center">
           <img
             className="w-40 ml-5 h-20 sm:w-56 sm:h-32 cursor-pointer transition-transform transform hover:scale-110"
-            src={Logo}
+            src = "/Logo.png"
             alt="Logo"
           />
         </div>
@@ -55,7 +54,7 @@ const Navber = () => {
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-yellow-400 to-red-500 hover:scale-110 transition-transform duration-300">
               <img
                 className="h-10 w-10 rounded-full"
-                src={Eggole}
+                src='/Eggole.jpg'
                 alt="Eggole"
               />
             </div>
