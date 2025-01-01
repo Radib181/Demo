@@ -1,8 +1,9 @@
 import React from "react";
-import GoogleLogo from "../Photos/GoogleLogo.png";
+
 import watch from "../Photos/watch.png";
 import Youtubre from "../Photos/Youtubre.png";
 import Img from "../Photos/Img.png";
+import Googlelogo from "../Photos/Googlelogo.png";
 
 function PlayKoksal() {
   return (
@@ -25,8 +26,8 @@ function PlayKoksal() {
               <img
                 key={idx}
                 className="h-14 w-auto transform transition-transform duration-200 hover:scale-110"
-                src={GoogleLogo}
-                alt="Download Platform Logo"
+                src={Googlelogo}
+                alt=""
               />
             ))}
           </div>
