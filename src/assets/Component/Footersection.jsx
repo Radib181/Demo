@@ -47,7 +47,7 @@ function Footersection() {
             </div>
 
             {/* Twitter Icon */}
-            <div className="flex items-center bg-[#903131] justify-center w-12 h-12 rounded-2xl text-white text-2xl hover:scale-110 transition-transform duration-300">
+            <div className="flex items-center bg-[#afa8a8] justify-center w-12 h-12 rounded-2xl text-white text-2xl hover:scale-110 transition-transform duration-300">
               <a
                 href="https://twitter.com"
                 target="_blank"

@@ -41,7 +41,7 @@ const Navber = () => {
             </div>
 
             {/* Twitter Icon */}
-            <div className="flex items-center bg-[#903131] justify-center w-12 h-12 rounded-2xl text-white text-2xl hover:scale-110 transition-transform duration-300">
+            <div className="flex items-center bg-[#afa8a8] justify-center w-12 h-12 rounded-2xl text-white text-2xl hover:scale-110 transition-transform duration-300">
               <a
                 href="https://twitter.com"
                 target="_blank"
@@ -63,7 +63,7 @@ const Navber = () => {
 
           {/* Button */}
           <div>
-            <button className="font-semibold italic text-lg sm:text-xl md:text-2xl bg-[#FFDC1F] px-6 py-3 border-2 rounded-full border-black shadow-xl hover:bg-[#FFD700] hover:scale-105 transition-all duration-300 focus:outline-none">
+            <button className="font-semibold italic text-lg sm:text-xl md:text-2xl bg-[#FFDC1F] px-6 py-3 border-2  border-black shadow-xl hover:bg-[#FFD700] hover:scale-105 transition-all duration-300 focus:outline-none">
               & Buy Koksal
             </button>
           </div>
