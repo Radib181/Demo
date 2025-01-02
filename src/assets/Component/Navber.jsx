@@ -4,11 +4,11 @@ import { FaTwitter, FaTelegramPlane, FaDiscord } from "react-icons/fa"; // Impor
 const Navber = () => {
   return (
     <section className="container mx-auto -mt-8">
-      <div className="flex flex-col lg:flex-row justify-between items-center py-6">
+      <div className="flex flex-col lg:flex-row justify-between items-center py-6 px-4 sm:px-8 lg:px-12">
         {/* Left Section - Logo */}
         <div className="mb-4 lg:mb-0 flex items-center">
           <img
-            className="w-40 ml-5 h-20 sm:w-56 sm:h-32 cursor-pointer transition-transform transform hover:scale-110"
+            className="w-40 sm:w-56 h-20 sm:h-32 cursor-pointer transition-transform transform hover:scale-110"
             src="/Logo.png"
             alt="Logo"
           />
@@ -42,9 +42,13 @@ const Navber = () => {
 
             {/* Twitter Icon */}
             <div className="flex items-center bg-[#903131] justify-center w-12 h-12 rounded-2xl text-white text-2xl hover:scale-110 transition-transform duration-300">
-              <img src="/download (2).png" alt="" />
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaTwitter />
-            
+              </a>
             </div>
 
             {/* Eggole Image with Gradient Background */}
@@ -59,7 +63,7 @@ const Navber = () => {
 
           {/* Button */}
           <div>
-            <button className="font-semibold italic container mx-auto text-lg sm:text-xl md:text-2xl bg-[#FFDC1F] px-6 py-3 border-2 rounded-lg border-black shadow-lg hover:bg-[#FFD700] hover:scale-105 transition-all duration-300 focus:outline-none">
+            <button className="font-semibold italic text-lg sm:text-xl md:text-2xl bg-[#FFDC1F] px-6 py-3 border-2 rounded-full border-black shadow-xl hover:bg-[#FFD700] hover:scale-105 transition-all duration-300 focus:outline-none">
               & Buy Koksal
             </button>
           </div>
