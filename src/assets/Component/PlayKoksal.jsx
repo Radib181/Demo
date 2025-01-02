@@ -1,63 +1,45 @@
 import React from "react";
 
-
 function PlayKoksal() {
   return (
-    <section className="relative bg-gradient-to-r from-yellow-400 via-orange-300 to-yellow-500 py-16 px-6 md:px-16 lg:px-28 overflow-hidden">
-      <div className="flex flex-col lg:flex-row items-center space-y-16 lg:space-y-0 lg:space-x-16">
-        {/* Left Section */}
-        <div className="lg:w-1/2 space-y-8 text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-700 leading-snug">
+    <section className="relative bg-[#FEE125] py-16 px-6 md:px-16 lg:px-28 overflow-hidden">
+      <div className="flex flex-col-reverse lg:flex-row items-center space-y-16 lg:space-y-0 lg:space-x-16">
+        {/* Right Section - Image */}
+        <div className="lg:w-1/2 flex justify-center lg:justify-end relative lg:order-2">
+          <div className="relative max-w-full group">
+            <img
+              className="rounded-lg w-[520px] h-[720px] sm:mx-auto lg:mx-0"
+              src="/Img.png"
+              alt="Koksal Baba Game"
+            />
+          </div>
+        </div>
+
+        {/* Left Section - Content */}
+        <div className="lg:w-1/2 space-y-8 text-center lg:text-left lg:order-1">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-blue-700 leading-tight">
             Play Koksal Baba Game <br />
-            <span className="text-yellow-600">Your Way!</span>
+            <span className="text-blue-700">Your Way!</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-800 font-medium">
+          <p className="text-lg md:text-xl text-gray-800 font-extrabold mt-4">
             Download the game on your favorite platform or play directly on the
             web. Start earning $8 as you go and laugh your way to the top!
           </p>
 
           {/* Download Buttons */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 justify-center lg:justify-start">
-            {[1, 2, 3, 4].map((_, idx) => (
-              <img
-                key={idx}
-                className="h-14 w-auto transform transition-transform duration-200 hover:scale-110"
-                src="/Googlelogo.png"
-                alt=""
-              />
-            ))}
+          <div className="grid grid-cols-2 gap-2 justify-center lg:justify-start mt-4">
+            <img className="h-14 w-auto mx-auto lg:mx-0" src="/Googlelogo.png" alt="Company Logo" />
+            <img className="h-14 w-auto mx-auto lg:mx-0" src="/koksal website (1) copy.png" alt="Company Logo" />
+          </div>
+          <div className="grid grid-cols-2 gap-2 justify-center lg:justify-start mt-4">
+            <img className="h-14 w-auto mx-auto lg:mx-0" src="/TeiligramLogo.png" alt="Company Logo" />
+            <img className="h-16 w-auto mx-auto lg:mx-0" src="/BrowserLogo.png" alt="Company Logo" />
           </div>
 
           {/* Action Buttons */}
-          <div className="flex justify-center lg:justify-start space-x-8 mt-8">
-            <img
-              className="h-20 w-auto transform transition-transform duration-200 hover:scale-105"
-              src="/watch.png"
-              alt="Watch Trailer"
-            />
-            <img
-              className="h-20 w-auto transform transition-transform duration-200 hover:scale-105"
-              src="/Youtubre.png"
-              alt="YouTube"
-            />
-          </div>
-        </div>
-
-        {/* Right Section */}
-        <div className="lg:w-1/2 flex justify-center relative">
-          <div className="relative max-w-full group">
-            <div className="relative">
-              <img
-                className="rounded-lg shadow-xl transition-transform duration-300 group-hover:scale-105"
-                src = "/Img.png"
-                alt="Koksal Baba Game"
-              />
-              {/* Subtle Fire Effect */}
-              <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-500 via-yellow-400 to-orange-600 opacity-0 transition-opacity duration-500 group-hover:opacity-50 blur-md"></div>
-            </div>
-            <div className="absolute -top-10 -right-10 bg-yellow-500 text-blue-900 font-bold text-lg px-4 py-2 rounded-full shadow-lg transform rotate-6">
-              New Release
-            </div>
+          <div className="grid grid-cols-2 gap-4 justify-center lg:justify-start mt-8">
+            <img className="h-20 w-auto mx-auto lg:mx-0" src="/watch.png" alt="Watch Trailer" />
+            <img className="h-20 w-auto mx-auto lg:mx-0" src="/Youtubre.png" alt="YouTube" />
           </div>
         </div>
       </div>
